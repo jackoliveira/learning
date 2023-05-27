@@ -27,9 +27,7 @@ const valoresDaBusca = [
 ];
 
 function buscaValores(stringBusca) {
-  return valoresDaBusca.filter((value) => {
-    return value.name.includes(stringBusca);
-  });
+  return valoresDaBusca.filter((value) => value.name.includes(stringBusca))
 }
 
 busca.addEventListener('input', (event) => {
