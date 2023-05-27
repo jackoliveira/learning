@@ -28,7 +28,7 @@ const valoresDaBusca = [
 
 function buscaValores(stringBusca) {
   return valoresDaBusca.filter((value) => {
-    return value.name.includes(buscaValor);
+    return value.name.includes(stringBusca);
   });
 }
 
